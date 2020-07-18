@@ -28,11 +28,7 @@ sleep $DELAY
 
 ### install and config tmux ###
 echo "### install and config tmux ###"
-cd
-git clone https://github.com/gpakosz/.tmux.git
-ln -s -f .tmux/.tmux.conf
-cp .tmux/.tmux.conf.local .
-tmux  source ~/.tmux.conf
+sudo apt-get install -y tmux
 
 ### install tools search ####
 echo "### install tools search ####"
@@ -42,3 +38,6 @@ git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 ### sync environment ###
 echo "### sync environment ###"
 source ~/.bashrc
+
+# change user mode for minicom"
+sudo usermod -a -G dialout $USER
