@@ -1,0 +1,86 @@
+┌── phuong_nguyen@phuong-nguyen:~/phuong.nguyen/Ubuntu_Setup⟫
+└──>>
+┌── phuong_nguyen@phuong-nguyen:~/phuong.nguyen/Ubuntu_Setup⟫
+└──>>
+┌── phuong_nguyen@phuong-nguyen:~/phuong.nguyen/Ubuntu_Setup⟫
+└──>> cd ../raspberrypi/
+.git/               pi_started_setting/
+┌── phuong_nguyen@phuong-nguyen:~/phuong.nguyen/Ubuntu_Setup⟫
+└──>> cd ../raspberrypi/
+.git/               pi_started_setting/
+┌── phuong_nguyen@phuong-nguyen:~/phuong.nguyen/Ubuntu_Setup⟫
+└──>> cd ../raspberrypi/pi_started_setting/
+┌── phuong_nguyen@phuong-nguyen:~/phuong.nguyen/raspberrypi/pi_started_setting⟫
+└──>> ls
+auto_setting.sh  bashrc_sample  vim_config.sh  vimrc_sample
+┌── phuong_nguyen@phuong-nguyen:~/phuong.nguyen/raspberrypi/pi_started_setting⟫
+└──>> pwd
+/home/phuong_nguyen/phuong.nguyen/raspberrypi/pi_started_setting
+┌── phuong_nguyen@phuong-nguyen:~/phuong.nguyen/raspberrypi/pi_started_setting⟫
+└──>> readlink -f ~/.bashrc
+/home/phuong_nguyen/.bashrc
+┌── phuong_nguyen@phuong-nguyen:~/phuong.nguyen/raspberrypi/pi_started_setting⟫
+└──>> echo $USER
+phuong_nguyen
+┌── phuong_nguyen@phuong-nguyen:~/phuong.nguyen/raspberrypi/pi_started_setting⟫
+└──>>
+┌── phuong_nguyen@phuong-nguyen:~/phuong.nguyen/raspberrypi/pi_started_setting⟫
+└──>>
+┌── phuong_nguyen@phuong-nguyen:~/phuong.nguyen/raspberrypi/pi_started_setting⟫
+└──>> ls
+auto_setting.sh  bashrc_sample  vim_config.sh  vimrc_sample
+┌── phuong_nguyen@phuong-nguyen:~/phuong.nguyen/raspberrypi/pi_started_setting⟫
+└──>>
+┌── phuong_nguyen@phuong-nguyen:~/phuong.nguyen/raspberrypi/pi_started_setting⟫
+└──>> ls
+auto_setting.sh  bashrc_sample  vim_config.sh  vimrc_sample
+┌── phuong_nguyen@phuong-nguyen:~/phuong.nguyen/raspberrypi/pi_started_setting⟫
+└──>> ls /
+bin  boot  cdrom  dev  etc  home  lib  lib32  lib64  libx32  lost+found  media  mnt  opt  proc  root  run  sbin  snap  srv  swapfile  sys  tmp  usr  var
+┌── phuong_nguyen@phuong-nguyen:~/phuong.nguyen/raspberrypi/pi_started_setting⟫
+└──>> ls /tmp/
+chip_config.ini                                                                   systemd-private-611f49634b174a1d9c80661013d444b8-switcheroo-control.service-BTnwhj  tmptr0l0m6a
+chip_counters.ini                                                                 systemd-private-611f49634b174a1d9c80661013d444b8-systemd-logind.service-1WCHKg      tmpt_tang9w
+chip-device-ctrl-storage.json                                                     systemd-private-611f49634b174a1d9c80661013d444b8-systemd-resolved.service-QJPi2f    tmpuvq6rhr9
+chip_factory.ini                                                                  systemd-private-611f49634b174a1d9c80661013d444b8-systemd-timesyncd.service-WCsFZg   tmpyux62yfd
+chip_kvs                                                                          systemd-private-611f49634b174a1d9c80661013d444b8-upower.service-xBV8Sf              tmpz_pqc2tc
+config-err-U1sZCb                                                                 Temp-6c9a03ec-5df9-4587-8a73-6884e3882f04                                           tmux-1000
+ssh-w0rtkDNkKMYO                                                                  tmpj0besnh3                                                                         tracker-extract-files.1000
+systemd-private-611f49634b174a1d9c80661013d444b8-colord.service-Y50eUh            tmppjoqrdgz                                                                         tracker-extract-files.125
+systemd-private-611f49634b174a1d9c80661013d444b8-iio-sensor-proxy.service-xd5JRh  tmppkndxs0t
+systemd-private-611f49634b174a1d9c80661013d444b8-ModemManager.service-abwLUe      tmpsgskztjl
+┌── phuong_nguyen@phuong-nguyen:~/phuong.nguyen/raspberrypi/pi_started_setting⟫
+└──>> ls ~/
+Desktop  Documents  Downloads  Music  phuong.nguyen  Pictures  Public  snap  Templates  Videos
+┌── phuong_nguyen@phuong-nguyen:~/phuong.nguyen/raspberrypi/pi_started_setting⟫
+└──>> vim a
+┌── phuong_nguyen@phuong-nguyen:~/phuong.nguyen/raspberrypi/pi_started_setting⟫
+└──>> l;s
+auto_setting.sh*  bashrc_sample  vim_config.sh  vimrc_sample
+ass: command not found
+d┌── phuong_nguyen@phuong-nguyen:~/phuong.nguyen/raspberrypi/pi_started_setting⟫
+└──>> ls
+auto_setting.sh  bashrc_sample  vim_config.sh  vimrc_sample
+┌── phuong_nguyen@phuong-nguyen:~/phuong.nguyen/raspberrypi/pi_started_setting⟫
+└──>> tmux capture-pane -pS -1000000 > file.out
+┌── phuong_nguyen@phuong-nguyen:~/phuong.nguyen/raspberrypi/pi_started_setting⟫
+└──>> ls
+auto_setting.sh  bashrc_sample  file.out  vim_config.sh  vimrc_sample
+┌── phuong_nguyen@phuong-nguyen:~/phuong.nguyen/raspberrypi/pi_started_setting⟫
+└──>> ls -al
+total 36
+drwxrwxr-x 2 phuong_nguyen phuong_nguyen 4096 Thg 3   9 16:51 .
+drwxrwxr-x 4 phuong_nguyen phuong_nguyen 4096 Thg 3   9 13:42 ..
+-rwxrwxr-x 1 phuong_nguyen phuong_nguyen 1402 Thg 3   9 15:40 auto_setting.sh
+-rw-r--r-- 1 phuong_nguyen phuong_nguyen 4322 Thg 3   9 15:11 bashrc_sample
+-rw-rw-r-- 1 phuong_nguyen phuong_nguyen 4607 Thg 3   9 16:51 file.out
+-rw-rw-r-- 1 phuong_nguyen phuong_nguyen  459 Thg 3   9 14:55 vim_config.sh
+-rw-r--r-- 1 phuong_nguyen phuong_nguyen 1730 Thg 3   9 14:55 vimrc_sample
+┌── phuong_nguyen@phuong-nguyen:~/phuong.nguyen/raspberrypi/pi_started_setting⟫
+└──>> tmux cals ~^C
+┌── phuong_nguyen@phuong-nguyen:~/phuong.nguyen/raspberrypi/pi_started_setting⟫
+└──>> ls ~/
+Desktop  Documents  Downloads  Music  phuong.nguyen  Pictures  Public  snap  Templates  Videos
+┌── phuong_nguyen@phuong-nguyen:~/phuong.nguyen/raspberrypi/pi_started_setting⟫
+└──>> tmux capture-pane -pS -1000000 > ./file.out
+
